@@ -16,6 +16,7 @@ jobs:
       with:
         project: CxFlowGithub-master
         team: '/CxServer/cx-scord'
+        checkmarx_version: 9.0
         checkmarx_url: ${{ secrets.CX_SERVER }}        
         checkmarx_username: ${{secrets.CX_USER}}
         checkmarx_password: ${{secrets.CX_PASSWD}}
